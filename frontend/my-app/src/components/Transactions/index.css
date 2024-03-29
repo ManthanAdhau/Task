@@ -1,0 +1,112 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 20px;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+
+  cursor: pointer;
+  height: 60%;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+th,
+td {
+  border: 0.5px solid black;
+  padding: 8px;
+  text-align: center;
+  /* border-bottom: 2px solid black; */
+
+  /* border-radius: 25px; */
+}
+th {
+  background-color: #e9ebf8;
+}
+.main-container {
+  background-color: #e9ebf8;
+  /* height: 100vh; */
+  padding: 20px;
+  margin-left: 0%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+  align-items: center;
+}
+.first-container {
+  height: 15%;
+  width: 15%;
+  border-radius: 10px;
+  background-color: #b4b8c5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.second-container {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-element {
+  outline: none;
+  background-color: #f0b762;
+  color: black;
+  border-radius: 15px;
+
+  height: 30px;
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.dropdown-list {
+  outline: none;
+  background-color: #f0b762;
+  color: black;
+  border-radius: 15px;
+
+  height: 30px;
+  width: 30%;
+  cursor: pointer;
+}
+.selector-element {
+  background-color: rgb(147, 165, 42);
+  color: white;
+}
+.last-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+}
+.next-button {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin: 10px;
+  background-color: teal;
+}
+.previous-button {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin: 10px;
+  background-color: teal;
+}
+.product-image {
+  background-color: transparent;
+}
+.line {
+  color: black;
+}
